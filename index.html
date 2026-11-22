@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lior Greenberg</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Montserrat:wght@400;600;800&family=Pacifico&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Animated background: bubbles rising from the sea -->
+    <div class="ocean" aria-hidden="true">
+      <span class="bubble b1"></span>
+      <span class="bubble b2"></span>
+      <span class="bubble b3"></span>
+      <span class="bubble b4"></span>
+      <span class="bubble b5"></span>
+      <span class="bubble b6"></span>
+      <span class="bubble b7"></span>
+      <span class="bubble b8"></span>
+      <span class="bubble b9"></span>
+      <span class="bubble b10"></span>
+    </div>
+
+    <!-- Navigation bar -->
+    <nav class="navbar">
+      <a href="#top" class="logo">LG</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#studies">Studies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Top section: sunset at Dado beach, Haifa -->
+    <header class="top-container" id="top">
+      <img class="hero-img" src="./images/hero.jpg" alt="Sunset at Dado beach, Haifa">
+      <div class="hero-overlay"></div>
+      <div class="title-text">
+        <h1>I'm Lior.</h1>
+        <h2>an Information Systems student.</h2>
+        <a href="#about" class="scroll-down">&#8595;</a>
+      </div>
+      <div class="wave"></div>
+    </header>
+
+    <main class="middle-container">
+      <!-- About me -->
+      <section class="card profile" id="about">
+        <img src="./images/profile.png" alt="Lior profile picture" id="profile-img">
+        <h2>Hello.</h2>
+        <p class="intro">
+          I'm Lior Greenberg, a student of <strong>Information Systems Engineering</strong>
+          at <em>Ben-Gurion University of the Negev</em>.
+          <br> I love technology, the sea, and a good game of football.
+        </p>
+      </section>
+
+      <hr>
+
+      <!-- Skills & hobbies -->
+      <section class="hobbies" id="hobbies">
+        <h2 class="section-title">My Skills &amp; Hobbies</h2>
+        <div class="hobby-grid">
+          <article class="hobby-card">
+            <img src="./images/football.jpg" alt="football on the grass">
+            <div class="hobby-text">
+              <h3>Football</h3>
+              <p>Football is my biggest passion &ndash; playing it, watching it and talking about it.</p>
+            </div>
+          </article>
+
+          <article class="hobby-card">
+            <img src="./images/stadium.jpg" alt="Sammy Ofer stadium, Haifa">
+            <div class="hobby-text">
+              <h3>Hapoel Haifa</h3>
+              <p>A proud <span class="red">Hapoel Haifa</span> fan. You'll find me in the red stands at Sammy Ofer!</p>
+            </div>
+          </article>
+
+          <article class="hobby-card">
+            <img src="./images/beach.jpg" alt="Haifa beach from above">
+            <div class="hobby-text">
+              <h3>The Beach</h3>
+              <p>In my free time I'm by the sea, enjoying the sun and the waves.</p>
+            </div>
+          </article>
+
+          <article class="hobby-card">
+            <img src="./images/footvolley.jpg" alt="footvolley game on the beach">
+            <div class="hobby-text">
+              <h3>Footvolley &amp; Friends</h3>
+              <p>Playing footvolley on the sand and spending time with friends is how I recharge.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <hr>
+
+      <!-- What I study -->
+      <section class="card studies" id="studies">
+        <h2>What I'm Learning</h2>
+        <ul class="skill-list">
+          <li>HTML &amp; CSS</li>
+          <li>Python</li>
+          <li>SQL &amp; Databases</li>
+          <li>Systems Analysis</li>
+          <li>Web-Based Systems</li>
+        </ul>
+      </section>
+
+      <hr>
+
+      <!-- Contact -->
+      <section class="card contact-me" id="contact">
+        <h2>Get In Touch</h2>
+        <p class="contact-message">Up for a footvolley game on the beach? <br>
+          Want to talk about football or tech? <br> Let's meet by the sea!</p>
+        <a class="btn" href="mailto:lior@example.com">CONTACT ME</a>
+      </section>
+    </main>
+
+    <footer class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+      <a class="footer-link" href="https://www.instagram.com/" target="_blank">Instagram</a>
+      <p class="copyright">© Lior Greenberg. Photos: Wikimedia Commons.</p>
+    </footer>
+  </body>
+</html>
